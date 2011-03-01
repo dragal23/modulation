@@ -6,7 +6,7 @@ all: build test
 
 install: build
 	cp build/libpsk.so build/libpsk.a $(LIB_INSTALL_DIR)
-	cp src/psk.h++ $(INCLUDE_INSTALL_DIR)
+	cp psk.h++ $(INCLUDE_INSTALL_DIR)
 
 
 build: build/libpsk.so build/libpsk.a
