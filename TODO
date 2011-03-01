@@ -1,2 +1,4 @@
-Rewrite psk::generate so that frequancy and inteval are not
-interrelated....
+Modify psk::generator to return a signal class which includes the I
+and Q waves as well as the modulated signal!
+
+Find betterway to allow lookup of predifined constellations!

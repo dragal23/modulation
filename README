@@ -2,8 +2,8 @@ This is a collection of libraries dealing with modulation
 techniques. They were written to aid learning and to explore the
 science of modulation.
 
-Currently works after a fashion, but scaling with respects to
-frequancy doesn't work and the interval is also dependent on
-frequancy.
-
-Need to rewrite generate to reflect these issues
+The current way of dealling with contellations (ie definitions of the
+modulation scheme) is a bit squiffy. At present the class
+constellaitions_ allows lookup on these and needs be be instantiated
+by the user. This works, but is a bit naff. I will investigate
+alternatives!
