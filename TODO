@@ -1,4 +1,11 @@
+Fix psk::split so it handles bauds which don't divide 8! Should this
+handle larger wirds as well?
+
 Modify psk::generator to return a signal class which includes the I
 and Q waves as well as the modulated signal!
 
 Find betterway to allow lookup of predifined constellations!
+
+Also constillations should have there own class which gives info like
+baud rate etc.
+
